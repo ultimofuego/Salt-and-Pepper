@@ -21,16 +21,17 @@ An effective noise reduction method for this type of noise is a median filter or
 ## Results
 <img src="https://github.com/ultimofuego/bilinear-interp/blob/master/cat250x188.bmp" /> |
 ------------ |
-Input 250 x 188
+Input 500x375 + noise 5%
 
 <img src="https://github.com/ultimofuego/bilinear-interp/blob/master/CatGPUout.bmp" /> | <img src="https://github.com/ultimofuego/bilinear-interp/blob/master/CatCPUout.bmp" />
 ------------ | ------------- 
-Output GPU 500 x 376 | Output CPU 500 x 376
+Output GPU 500x375 | Output CPU 500x375
 
 Average results after 100 times of runs.
 
-|    Input size  |   Output size |          CPU        |         GPU       | Acceleration |
-|-------------|-|--------------------|-------------------|--------------|
-| 500x375   | 1000x750 |18 ms               | 6.5 ms            |    2.77      |
-| 1000x750   | 2000x1500 |57 ms               | 22 ms            |    2.59      |
-| 4000x3000   | 8000x6000 |808 ms              | 339 ms             |    2.38      |
+|    Input size  |          CPU        |         GPU       | Acceleration |
+|-------------|--------------------|-------------------|--------------|
+| 250x188   |40 ms               | 0.44 ms            |    90.90      |
+| 500x375   |152 ms               | 1.71 ms            |    88.89      |
+| 1000x750   |937 ms              | 5.92 ms             |    158.28      |
+| 2000x1500   |2414 ms              | 25.67 ms             |    94.04      |
