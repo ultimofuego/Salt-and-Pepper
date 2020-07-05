@@ -10,7 +10,7 @@ An effective noise reduction method for this type of noise is a median filter or
 4. EasyBMP
 ## Build and Run
 1. Make new CUDA-project.
-2. Include in the project "bilinear-interp.cu".
+2. Include in the project "saltAndPepper.cu".
 ## System configuration
 | Name  | Values  |
 |-------|---------|
