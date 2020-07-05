@@ -19,11 +19,11 @@ An effective noise reduction method for this type of noise is a median filter or
 | GPU  | GeForce GTX 750 Ti 2GB |
 | OS   | Windows 10 64-bit  |
 ## Results
-<img src="https://github.com/ultimofuego/bilinear-interp/blob/master/cat250x188.bmp" /> |
+<img src="https://github.com/ultimofuego/Salt-and-Pepper/blob/master/catNoise.bmp" /> |
 ------------ |
 Input 500x375 + noise 5%
 
-<img src="https://github.com/ultimofuego/bilinear-interp/blob/master/CatGPUout.bmp" /> | <img src="https://github.com/ultimofuego/bilinear-interp/blob/master/CatCPUout.bmp" />
+<img src="https://github.com/ultimofuego/Salt-and-Pepper/blob/master/CatGPUout.bmp" /> | <img src="https://github.com/ultimofuego/Salt-and-Pepper/blob/master/CatCPUout.bmp" />
 ------------ | ------------- 
 Output GPU 500x375 | Output CPU 500x375
 
